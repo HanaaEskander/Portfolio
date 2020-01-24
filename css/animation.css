@@ -1,0 +1,11 @@
+.st-menu{
+    /* background: black; */
+  animation: glowing 1500ms infinite ;
+}
+
+@keyframes glowing {
+  0% { background-color: #e0d90c; box-shadow: 0 0 3px #e0d90c; }
+  50% { background-color: black; box-shadow: 0 0 40px black; }
+   50% { background-color: black; box-shadow: 0 0 40px black; }
+  100% { background-color: #e0d90c; box-shadow: 0 0 3px #e0d90c; }
+}
